@@ -10,7 +10,7 @@
 
 <body id="detail">
 	<header>
-		<h1><a href="list.html">レストラン・レビュ・サイト</a></h1>
+		<h1><a href="list.php">レストラン・レビュ・サイト</a></h1>
 	</header>
 	<main>
 		<article id="description">
@@ -40,7 +40,7 @@
 		</article>
 		<article id="review">
 			<h2>レビュを書き込む</h2>
-			<form name="review_form" action="detail.html" method="post">
+			<form name="review_form" action="detail.php" method="post">
 				<table class="review">
 					<tr>
 						<th>お名前</th>
