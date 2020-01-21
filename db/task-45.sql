@@ -1,1 +1,4 @@
-select reviews.*, restaurants.name from reviews where id = 7 inner join restaurants on reviews.restaurant = restaurants.id;
+select reviews.*,restaurants.name from reviews 
+inner join restaurants 
+on reviews.restaurant = restaurants.id
+where reviews.restaurant = 7;
